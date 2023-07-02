@@ -1,0 +1,43 @@
+
+The universal selector in CSS is represented by an asterisk (*) and 
+is used to select all elements within a document. 
+It matches any element type, including HTML tags, and applies styles to all elements in the document.
+When you use the universal selector in CSS, it targets every element on the page, 
+regardless of its type or location within the HTML structure. 
+This selector is often used to apply global styles or to reset default styles.
+Here's an example of using the universal selector to target all elements and apply a specific style: 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+The universal selector can also be used to select all elements within a specific element. For example, 
+the following CSS code will set the font size of all <p> elements to 16px:
+________________________________________________________________________________________________________________________
+p * {
+  font-size: 16px;
+}
+________________________________________________________________________________________________________________________
+/* 
+In this case, the asterisk selector will select all child elements of the <p> element, 
+regardless of their type. This means that the font size will be set for all text nodes, images, and other elements within the <p> element.
+
+The universal selector is a powerful tool that can be used to style all elements on an HTML page.
+However, it is important to use it carefully, as it can also be used to overwrite more specific styles.
+----------------------------------------------------------------------------------------------------
+Here are some of the advantages of using universal selectors in CSS:
+
+1. They can be used to apply the same style to all elements on an HTML page.
+2. They can be used to target elements that do not have a specific selector.
+3. They can be used to combine with other selectors to create more complex selectors.
+----------------------------------------------------------------------------------------------------
+Here are some of the disadvantages of using universal selectors in CSS:
+
+1. They can be used to overwrite more specific styles.
+2. They can be less efficient than using more specific selectors.
+3. They can be difficult to read and understand.
+4. Overall, universal selectors can be a useful tool for styling HTML pages. 
+   However, it is important to use them carefully and to understand their limitations. */
