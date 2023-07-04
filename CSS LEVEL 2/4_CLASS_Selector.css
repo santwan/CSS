@@ -1,0 +1,35 @@
+A class selector is a term used in the context of web development and Cascading Style Sheets (CSS). 
+It refers to a way of targeting and applying styles to specific elements on a web page.
+
+In CSS, you can assign a class to one or more HTML elements by using the "class" attribute. 
+The class attribute acts as a hook or identifier for those elements, allowing you to style them 
+collectively or individually. To create a class selector, you prepend a dot (.) followed by the name of the class.
+
+For example, let's say you have several paragraphs on your web page and you want to style them differently. 
+You can assign a class to each paragraph using the class attribute in the HTML code:
+__________________________________________________________________________________________________________________
+```html
+<p class="red">This is a red paragraph.</p>
+<p class="blue">This is a blue paragraph.</p>
+<p class="green">This is a green paragraph.</p>
+------------------------------------------------------------------------------------------------------------------
+__________________________________________________________________________________________________________________
+In the CSS code, you can then define styles for each class selector:
+```css
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+-------------------------------------------------------------------------------------------------------------------
+In this example, the class selector ".red" will target the paragraph with the "red" class and apply the specified style (red text color). 
+Similarly, ".blue" targets the paragraph with the "blue" class, and ".green" targets the paragraph with the "green" class.
+
+By using class selectors, you can easily group and style elements based on their shared characteristics. It provides a flexible and reusable 
+way to apply styles to specific elements throughout your web page or website.
