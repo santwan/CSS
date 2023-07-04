@@ -1,0 +1,26 @@
+The Child combinator, denoted by the ">" symbol, is a selector in CSS (Cascading Style Sheets) used to target elements that are direct children of a specific parent element. 
+It establishes a relationship between the parent element and the selected child element.
+
+When you use the Child combinator, it selects only the elements that are direct descendants or children of the parent element, 
+excluding any elements that are further nested within other elements.
+
+For example, let's say we have the following HTML structure:
+_________________________________________________________________________________________________________________________________
+```html
+<div class="parent">
+  <p>This is a direct child paragraph.</p>
+  <div>
+    <p>This paragraph is not a direct child.</p>
+  </div>
+</div>
+----------------------------------------------------------------------------------------------------------------------------------
+To apply a style to the direct child paragraph, you can use the Child combinator in CSS like this:
+```css
+.parent > p {
+  /* CSS styles for direct child paragraphs */
+}
+----------------------------------------------------------------------------------------------------------------------------------
+In this case, only the paragraph element directly inside the `div` element with the class "parent" will be selected. 
+The nested paragraph inside the inner `div` will not be affected by this CSS rule.
+_________________________________________________________________________________________________________________________________
+By using the Child combinator, you can precisely target specific elements within a hierarchical structure and apply styles or perform actions on them.
