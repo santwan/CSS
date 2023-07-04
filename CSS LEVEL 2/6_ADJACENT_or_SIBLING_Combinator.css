@@ -1,1 +1,22 @@
+The adjacent sibling combinator is a selector in CSS (Cascading Style Sheets) that allows you to target an element that immediately follows another specific element.
+It is denoted by the "+" symbol and is often referred to as the "adjacent combinator" or "adjacent selector."
 
+In simpler terms, the adjacent sibling combinator allows you to select an element that comes right after another element of a specific type. 
+It is used to apply styles or perform actions on the targeted element based on its relationship with the preceding element.
+
+For example, let's say you have a list of paragraphs (`<p>`) and you want to style the second paragraph differently from the others. 
+You can use the adjacent sibling combinator to select the second paragraph like this:
+_________________________________________________________________________________________________________________________________
+```css
+p + p {
+  /* Styles for the second paragraph */
+}
+---------------------------------------------------------------------------------------------------------------------------------
+In this case, the selector "p + p" targets the `<p>` element that directly follows another `<p>` element. 
+So, any styles defined within the curly braces will be applied only to the second paragraph.
+
+It's important to note that the adjacent sibling combinator only selects the immediate sibling element. 
+If there are multiple elements of the same type following the preceding element, only the first one will be targeted.
+
+Overall, the adjacent sibling combinator is a useful tool in CSS that allows you to apply specific styles or actions to elements based on 
+their position in relation to other elements.
