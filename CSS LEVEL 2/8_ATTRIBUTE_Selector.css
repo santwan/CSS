@@ -1,0 +1,39 @@
+An attribute selector is a feature in web development and CSS (Cascading Style Sheets) that allows you to select HTML elements based on their attributes and attribute values. 
+In simple terms, it's a way to target and style specific elements that have certain attributes assigned to them.
+
+To use an attribute selector, you typically include it within square brackets `[ ]` in your CSS code. Inside the brackets, 
+you specify the attribute you want to target, followed by an optional attribute value. Here's an example:
+__________________________________________________________________________________________________________________________________
+
+input[type="text"] {
+  /* CSS rules */
+}
+------------------------------------------------------------------------------------
+In the example above, the attribute selector is targeting `<input>` elements with the attribute `type="text"`. 
+This selector will match any `<input>` element where the `type` attribute is set to `"text"`, allowing you to apply specific styles to those elements.
+
+Attribute selectors can be quite versatile and allow you to target elements based on various attributes, such as `class`, `id`, `href`, `src`, and many more. 
+You can also combine attribute selectors with other selectors to create more specific targeting rules.
+
+Here are a few examples of attribute selectors:
+_________________________________________________________________________________________________________________________________
+- Selecting elements with a specific class:
+
+div[class="highlight"] {
+  /* CSS rules */
+}
+---------------------------------------------------------------------------------------------------------------------------------
+- Selecting elements with a specific attribute (regardless of the value):
+
+a[target] {
+  /* CSS rules */
+}
+---------------------------------------------------------------------------------------------------------------------------------
+- Selecting elements with an attribute value starting with a certain string:
+
+img[src^="https://example.com/images/"] {
+  /* CSS rules */
+}
+_________________________________________________________________________________________________________________________________
+
+By using attribute selectors, you have more control over styling specific elements based on their attributes, making your CSS code more precise and targeted.
