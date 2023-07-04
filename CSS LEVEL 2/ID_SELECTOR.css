@@ -1,0 +1,22 @@
+The ID selector is a CSS (Cascading Style Sheets) selector that targets elements based on their unique identifier, known as an "ID." 
+In English, an ID selector is a way to specify a particular element on a web page using a specific ID value assigned to that element.
+
+To use an ID selector, you first assign a unique ID to an HTML element by adding the "id" attribute to the element's opening tag. 
+The ID value must be unique within the entire HTML document. For example, you can assign the ID "myElement" to a specific `<div>` element like this:
+_____________________________________________________________________________________________________________
+<div id="myElement">...</div>
+```
+----------------------------------------------------------
+Once you have assigned an ID to an element, you can target it in CSS using the ID selector. 
+The ID selector starts with a hash symbol (#) followed by the ID value. For our previous example, the ID selector would be written as:
+_____________________________________________________________________________________________________________
+```css
+#myElement {
+   /* CSS rules for the element with ID "myElement" go here */
+}
+----------------------------------------------------------------------
+By applying styles within the curly braces after the ID selector, you can define how the element with that specific ID should appear on the web page. 
+The styles can include properties like color, font size, background, and more.
+
+The ID selector is powerful because it allows you to apply unique styles to individual elements on a web page. 
+It is typically used when you want to target a specific element and provide it with a distinct appearance or behavior that differs from other elements on the page.
