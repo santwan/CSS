@@ -1,4 +1,5 @@
-In CSS (Cascading Style Sheets), the element selector is a fundamental feature that allows you to target and apply styles to specific HTML elements on a web page.
+In CSS (Cascading Style Sheets), the element selector is a fundamental feature that allows you to target and 
+apply styles to specific HTML elements on a web page. 
 It is represented by the element name itself, such as `div`, `p`, `h1`, `a`, and so on.
 When using the element selector, you specify the desired HTML element name directly in your CSS rule. For example, 
 if you want to style all paragraphs (`<p>`) on your page, you would use the following CSS rule:
@@ -9,7 +10,8 @@ p {
 ---------------------------------------------------------------------------------------------------
 This rule would apply the specified styles to all `<p>` elements found within the HTML document.
 
-The element selector can be used alone or in combination with other selectors, such as class selectors or ID selectors, to further refine the targeting of specific elements. 
+The element selector can be used alone or in combination with other selectors, 
+such as class selectors or ID selectors, to further refine the targeting of specific elements. 
 For instance, you can apply styles to only the paragraphs within a particular `<div>` by combining the element selector with a class selector:
 ___________________________________________________________________________________________________
 div.my-container p {
