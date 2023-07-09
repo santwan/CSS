@@ -1,4 +1,5 @@
-An attribute selector is a feature in web development and CSS (Cascading Style Sheets) that allows you to select HTML elements based on their attributes and attribute values. 
+An attribute selector is a feature in web development and CSS (Cascading Style Sheets) that allows you to select HTML elements 
+based on their attributes and attribute values. 
 In simple terms, it's a way to target and style specific elements that have certain attributes assigned to them.
 
 To use an attribute selector, you typically include it within square brackets `[ ]` in your CSS code. Inside the brackets, 
@@ -10,10 +11,10 @@ input[type="text"] {
 }
 ------------------------------------------------------------------------------------
 In the example above, the attribute selector is targeting `<input>` elements with the attribute `type="text"`. 
-This selector will match any `<input>` element where the `type` attribute is set to `"text"`, allowing you to apply specific styles to those elements.
-
-Attribute selectors can be quite versatile and allow you to target elements based on various attributes, such as `class`, `id`, `href`, `src`, and many more. 
-You can also combine attribute selectors with other selectors to create more specific targeting rules.
+This selector will match any `<input>` element where the `type` attribute is set to `"text"`, allowing you to apply specific 
+styles to those elements.
+Attribute selectors can be quite versatile and allow you to target elements based on various attributes, such as `class`, `id`, 
+`href`, `src`, and many more. You can also combine attribute selectors with other selectors to create more specific targeting rules.
 
 Here are a few examples of attribute selectors:
 _________________________________________________________________________________________________________________________________
