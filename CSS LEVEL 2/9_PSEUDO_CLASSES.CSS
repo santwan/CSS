@@ -1,0 +1,61 @@
+/* 
+In CSS, pseudo-classes are used to select and style elements based on their state or relationship with 
+other elements. Pseudo-classes begin with a colon (":") and are followed by a keyword that represents 
+the specific state or condition.
+
+Here's an explanation of some commonly used pseudo-classes in CSS:
+
+1. :hover - This pseudo-class is used to select and style an element when it is being hovered over by
+            the mouse cursor. For example: */
+
+a:hover {
+  color: red;
+}
+
+/* In the above example, when you hover over a link (`<a>` element), 
+the color of the link will change to red. */
+
+/* 2. :active - This pseudo-class is used to select and style an element while it is being clicked 
+             or activated. For example */
+
+button:active {
+  background-color: blue;
+}
+
+/* In the above example, when you click on a button (`<button>` element), the background color of the 
+button will change to blue. */
+
+/* 3. :focus - This pseudo-class is used to select and style an element that has received focus, 
+            typically through keyboard navigation. For example: */
+
+input:focus {
+  border-color: green;
+}
+
+/* In the above example, when an input field (`<input>` element) is focused, 
+its border color will change to green. */
+
+/* 4. :first-child - This pseudo-class is used to select and style the first child element of its parent. 
+                  For example: */
+
+li:first-child {
+  font-weight: bold;
+}
+/* 
+In the above example, the first `<li>` element within its parent `<ul>` or `<ol>` will be displayed 
+in bold font weight. */
+
+/* 5. :nth-child() - This pseudo-class is used to select and style elements based on their position 
+                  within their parent. It takes a formula or keyword as an argument to determine 
+                  the pattern of selection. For example: */
+
+tr:nth-child(2n) {
+  background-color: lightgray;
+}
+
+/* In the above example, every even-numbered `<tr>` element within a table will have a light gray 
+background color.
+
+These are just a few examples of commonly used pseudo-classes in CSS. Pseudo-classes provide a 
+powerful way to target and style elements based on different states or relationships, 
+allowing for more dynamic and interactive web designs. */
